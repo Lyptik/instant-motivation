@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Instant motivation</title>
+</head>
+
+<body>
+
+<p>Need instant motivation ? Press the button :)</p>
+
+<p id="players"></p>
+
+var url = window.location.href;
+var hash = url.substring(url.indexOf("#")+1);
+
+<script>
+
+switch(hash) {
+
+    case apero:
+        document.getElementById("players").innerHTML = "<p>Apero</p><audio controls><source src="sounds/apero.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>";
+        break;
+    case seduction:
+        document.getElementById("players").innerHTML = "<p>Seduction</p><audio controls><source src="sounds/seduction.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>";
+        break;
+    default:
+        // display all
+}
+
+</script>
+
+
+<!--
+<p>Apero</p>
+<audio controls>
+  <source src="sounds/apero.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Seduction</p>
+<audio controls>
+  <source src="sounds/seduction.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Strip tease</p>
+<audio controls>
+  <source src="sounds/strip-tease.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Rocky</p>
+<audio controls>
+  <source src="sounds/rocky.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Mission Impossible</p>
+<audio controls>
+  <source src="sounds/mission-impossible.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Rock'n roll</p>
+<audio controls>
+  <source src="sounds/rocknroll.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Thug</p>
+<audio controls>
+  <source src="sounds/thug.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Epic</p>
+<audio controls>
+  <source src="sounds/epic.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+-->
+
+</body>
+</html>
