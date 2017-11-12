@@ -2,5 +2,5 @@
 
 Motivational sound player website
 
-lyptik.github.io/instant-motivation/
+[lyptik.github.io/instant-motivation/]()
 
